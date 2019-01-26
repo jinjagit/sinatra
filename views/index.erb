@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <style>
+      body {
+        background: <%= background %>;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Guess the SECRET NUMBER (0 - 99)
+    </p>
+    <form>
+      <input type='text' name='guess' />
+      <input type='submit' value='Guess!' />
+    </form>
+    <p>
+      <%= message %>
+    </p>
+    <p>
+      <%= new_prompt %>
+    </p>
+  </body>
+</html>
